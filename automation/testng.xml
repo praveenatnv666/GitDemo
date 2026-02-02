@@ -1,0 +1,15 @@
+
+<suite name="Suite">
+
+    <listeners>
+        <listener class-name="constants.SuiteListener"/>
+    </listeners>
+
+    <test name="ChromeTests">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="QAtests.Testcase1"/>
+        </classes>
+    </test>
+
+</suite>
