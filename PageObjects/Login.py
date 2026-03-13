@@ -6,7 +6,7 @@ from PageObjects.Shoppage import ShopPage
 from Utils.BrowserUtils import BrowserUtils
 
 
-class LoginPage(BrowserUtils):
+class LoginPage:
      def __init__(self, driver):
          super().__init__(driver)
          self.driver = driver

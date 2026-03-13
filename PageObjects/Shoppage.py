@@ -4,7 +4,7 @@ from PageObjects.checkoutPage import checkoutPage
 from Utils.BrowserUtils import BrowserUtils
 
 
-class ShopPage(BrowserUtils):
+class ShopPage:
     def __init__(self, driver):
         super().__init__(driver)
         self.driver = driver
