@@ -3,7 +3,6 @@
 from selenium.webdriver.common.by import By
 
 from PageObjects.Shoppage import ShopPage
-from Utils.BrowserUtils import BrowserUtils
 
 
 class LoginPage:
