@@ -6,7 +6,6 @@ from Utils.BrowserUtils import BrowserUtils
 
 class ShopPage:
     def __init__(self, driver):
-        super().__init__(driver)
         self.driver = driver
         self.shop_link = (By.XPATH, '//a[contains(@href,"shop")]')
         self.product_card = (By.XPATH, '//*[@class="col-lg-3 col-md-6 mb-3"]')
