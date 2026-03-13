@@ -1,8 +1,5 @@
 from selenium.webdriver.common.by import By
-
 from PageObjects.checkoutPage import checkoutPage
-from Utils.BrowserUtils import BrowserUtils
-
 
 class ShopPage:
     def __init__(self, driver):
