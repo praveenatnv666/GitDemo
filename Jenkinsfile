@@ -1,6 +1,10 @@
 pipeline {
 
     agent any
+    options {
+        disableConcurrentBuilds()
+    }
+    
     triggers {
     cron('H/30 * * * *')
     }
@@ -9,8 +13,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git branch: 'playwright',
-                url: 'https://github.com/praveenatnv666/GitDemo.git'
+                checkout scm
             }
         }
 
